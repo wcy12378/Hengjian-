@@ -1,0 +1,13 @@
+web/node_modules/
+web/dist/
+web/test-results/
+web/playwright-report/
+web/coverage/
+web/playwright/.cache/
+web/*.tsbuildinfo
+*.log
+web/npm-debug.log*
+.DS_Store
+.env
+.env.*
+!.env.example
