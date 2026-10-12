@@ -115,12 +115,6 @@ flowchart TB
 
 浏览器演示以 Zustand demo store 充当领域适配层。真实部署时由 API adapter 和 repository 替换该 store，保持页面使用的 Case、Run、ReviewPackage、Approval、ActionGrant 与 ActionReceipt 契约稳定。完整边界见 [docs/architecture.md](docs/architecture.md)。
 
-## Craft / MiniClaw 融合边界
-
-- **MiniClaw Web UI 底座**：复用其 React、TypeScript、Vite、Tailwind、组件与响应式布局基础，并保留 MIT 许可证。
-- **Craft 交互参考**：借鉴多面板工作区、活动分组、检查器和审批确认的交互组织方式。
-- 本仓库不包含 Craft 源码，也不调用 Craft Electron API。
-- 当前业务领域模型、合成数据、调查页面、Memory、复核审批、评测与 MCP 展示均为衡鉴新增内容。
 
 ## 技术栈
 
